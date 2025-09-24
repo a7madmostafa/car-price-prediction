@@ -10,3 +10,4 @@ missingno
 ydata-profiling
 setuptools
 ipywidgets
+xgboost
