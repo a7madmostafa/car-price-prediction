@@ -107,17 +107,10 @@ pip install -r requirements.txt
 
 ## Scripts
 
-- **train_xgb.py**: Loads data, applies log-transform to the target, fits an XGBoost pipeline, and saves it.
+- **train_xgb.py**: Loads data, applies log-transform to the target and fits an XGBoost pipeline.
 - **predict_xgb.py**: Loads the saved pipeline, selects a test sample, and compares predicted vs. actual prices.
 
 ## Reports
 
 - **first-exploration.html**: Automated report (`ydata-profiling`) with summary statistics, correlations, and missing value visualizations.
 
-## License
-
-No license is currently specified. For open-source usage, consider adding an [MIT License](https://opensource.org/licenses/MIT).
-
-## Contributing
-
-Contributions are welcome! Please submit a pull request or open an issue for suggestions or bug reports.
