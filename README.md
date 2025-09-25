@@ -40,14 +40,14 @@ cd car-price-prediction-main
 **Option A: Using `uv` (Recommended)**
 ```bash
 pip install uv
-uv venv car-price
+uv venv car-price --python 3.11
 source car-price/bin/activate  # Windows: car-price\Scripts\activate
 uv pip install -r requirements.txt --link-mode=copy
 ```
 
 **Option B: Using `pip`**
 ```bash
-python -m venv .venv
+python -m venv .venv --python 3.11
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
